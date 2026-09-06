@@ -16,7 +16,7 @@ de código propio.
 
 - `informe/` - Informe único del grupo (PDF)
 - `resultados_"nombre de integrante".txt` - Resultados de mediciones individuales de cada integrante
-- `punto3_esp32/` - Código Arduino para el ESP32 y resultados
+- `punto3_esp32/` - Código Arduino para el ESP32
 - `punto4_gprof/` - Código de prueba, salida de gprof y gráfico del call graph
 
 ## Puntos desarrollados
