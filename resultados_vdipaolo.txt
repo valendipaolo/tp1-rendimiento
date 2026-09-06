@@ -1,0 +1,44 @@
+========================================
+RESULTADOS INDIVIDUALES - [Tu nombre]
+========================================
+Maquina: Intel Core i7-1165G7 @ 4.70 GHz, 4 nucleos / 8 hilos, 16GB RAM
+Sistema operativo: Ubuntu 26.04
+GCC: 15.2.0
+
+----------------------------------------
+PUNTO 1 - Benchmark 7-Zip
+----------------------------------------
+Herramienta: 7-Zip Compression (7z b nativo y Phoronix pts/compress-7zip)
+- Compresion:    ~29.500 MIPS (7z b) / 25.744 MIPS (Phoronix)
+- Descompresion: ~27.400 MIPS (7z b) / 14.859 MIPS (Phoronix)
+Nota: la medicion de Phoronix mostro throttling termico (15 corridas, sigma 6.8%);
+la medicion con 7z b nativo es mas estable.
+
+----------------------------------------
+PUNTO 4 - gprof (tiempo por funcion)
+----------------------------------------
+Tiempo total: 23.02 s
+- main:       0.03 s
+- func1:      7.80 s
+- func2:      7.57 s
+- new_func1:  7.62 s
+
+----------------------------------------
+PUNTO 5 - Mediciones de red
+----------------------------------------
+Latencia (ping a 8.8.8.8, media):
+- Cable:   20 ms (jitter ~2 ms)
+- WiFi:    27 ms (jitter 2.19 ms)
+- Celular: 77 ms (jitter 47 ms)
+
+Velocidad de internet por proveedor:
+- fast.com (Netflix):    190 Mbps bajada / 78 subida / 19 ms
+- Ookla (Fibertel):      174 / 96 / 20 ms
+- Ookla (DirecTV):       139 / 95 / 33 ms
+- Ookla (Telecentro):    145 / 96 / 39 ms
+Proveedor propio: Telecom / Arnet (Cordoba)
+
+Perturbacion de videollamada (Google Meet):
+- Retraso normal: ~29 ms
+- Con saturacion de descarga (YouTube + update): ~40 ms
+- Con saturacion iperf3 (20 conexiones): ~98 ms
